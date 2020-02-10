@@ -80,6 +80,7 @@ def board_full(ttt_board):
                 return False
 
 
+# main function, brings all other functions together
 def main():
     print_board(ttt_board)
     not_win = True
